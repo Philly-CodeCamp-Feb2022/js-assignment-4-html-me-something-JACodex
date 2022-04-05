@@ -1,1 +1,68 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    max-width: auto;
+    overflow-x: hidden;
+    /* font-family: "Nunito", sans-serif; */
+    background-color: #f5d9d5;
+}
+
+#mainHeading{
+    color: red;
+    text-align: center;
+    padding: auto;
+}
+p{
+    font-size: 1.5rem;
+    padding: auto;
+}
+.funParagraph{
+    color: green;
+    padding: auto;
+}
+
+/* .navbar{
+} */
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: auto ;
+}
+
+.navbar ul li{
+    font-size: 1.5rem;
+    padding: auto;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: auto;
+}
+.image-container img{
+    max-width: 1200px;
+    border-radius: 1rem;
+    padding: auto;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+
+
+
+
