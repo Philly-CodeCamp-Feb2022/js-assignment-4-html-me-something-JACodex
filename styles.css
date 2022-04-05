@@ -3,7 +3,7 @@ body {
     display: block;
     max-width: auto;
     overflow-x: hidden;
-    font-family: "Nunito", sans-serif;
+    /* font-family: "Nunito", sans-serif; */
     background-color: #f5d9d5;
 }
 
