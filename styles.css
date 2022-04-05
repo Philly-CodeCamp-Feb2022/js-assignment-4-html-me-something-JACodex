@@ -1,13 +1,60 @@
 body {
     margin: 8px;
     display: block;
-    
+    max-width: auto;
+    overflow-x: hidden;
+    font-family: "Nunito", sans-serif;
+    background-color: #f5d9d5;
 }
 
 #mainHeading{
     color: red;
+    text-align: center;
 }
-
+p{
+    font-size: 1.5rem;
+}
 .funParagraph{
     color: green;
 }
+
+.navbar{
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navbar ul li{
+    font-size: 1.5rem;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.image-container img{
+    max-width: 1200px;
+    border-radius: 1rem;
+
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
