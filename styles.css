@@ -10,16 +10,19 @@ body {
 #mainHeading{
     color: red;
     text-align: center;
+    padding: auto;
 }
 p{
     font-size: 1.5rem;
+    padding: auto;
 }
 .funParagraph{
     color: green;
+    padding: auto;
 }
 
-.navbar{
-}
+/* .navbar{
+} */
 
 .navbar ul{
     display: flex;
@@ -31,9 +34,11 @@ p{
 
 .navbar ul li{
     font-size: 1.5rem;
+    padding: auto;
 }
 .navbar ul li a{
     text-decoration: none;
+    padding: auto;
 }
 section{
     display: flex;
@@ -41,11 +46,12 @@ section{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: auto;
 }
 .image-container img{
     max-width: 1200px;
     border-radius: 1rem;
-
+    padding: auto;
 }
 
 footer{
@@ -54,6 +60,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    padding: auto;
 }
 
 
